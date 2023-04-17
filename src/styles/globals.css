@@ -249,7 +249,7 @@ body.dark {
 
 			border-radius: 50%;
 			z-index: -1;
-			background: linear-gradient(86.87deg, #ff5c00 -13.38%, #00d1ff 111.85%);
+			background: linear-gradient(86.87deg, #929253 -13.38%, #b5b586 111.85%);
 			filter: blur(25px);
 			animation: nav-link-shadow 0.3s ease-out forwards;
 		}
