@@ -3,7 +3,7 @@ module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
-    // './src/app/**/*.{js,ts,jsx,tsx}',
+    './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
@@ -11,6 +11,15 @@ module.exports = {
         brown_900: "#533317",
         brown_800: "#774921",
         brown_700: "#9B5F2B",
+      },
+      colors: {
+        brown_900: "#533317",
+        brown_800: "#774921",
+        brown_700: "#9B5F2B",
+        brown_600: "#BE7535",
+        brown_500: "#CF8C52",
+        brown_400: "#D9A476",
+        brown_300: "#E3BC9A",
       },
       fontFamily: {
         gradual: 'BwGradual, sans-serif',
