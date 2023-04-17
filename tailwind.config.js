@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      textColor: {
+        brown_900: "#533317",
+        brown_800: "#774921",
+        brown_700: "#9B5F2B",
+      },
       fontFamily: {
         gradual: 'BwGradual, sans-serif',
       },
