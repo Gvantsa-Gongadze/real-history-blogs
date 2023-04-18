@@ -30,7 +30,7 @@ const NavBar = () => {
 							setOpen(false)
 						}}
 					>
-						home
+						Home
 					</Link>
 				</div>
 				<div className='text-brown_800 mt-4 lg:mt-0 lg:ml-auto lg:flex lg:items-center lg:gap-5'>

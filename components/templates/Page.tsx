@@ -1,5 +1,4 @@
 import { NavBar } from '../elements'
-// import { Footer, NavBar } from '../elements'
 import { FC, ReactNode } from 'react'
 
 interface PageProps {
@@ -8,8 +7,6 @@ interface PageProps {
 }
 
 const Page: FC<PageProps> = ({ children, disableFooterMargin }) => {
-
-	console.log(children);
 	return (
 		<div className='flex min-h-screen flex-col'>
 			<NavBar />
